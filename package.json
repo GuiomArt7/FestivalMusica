@@ -1,0 +1,23 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiomArt7/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Guiomar Cameras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiomArt7/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/GuiomArt7/FestivalMusica#readme"
+}
