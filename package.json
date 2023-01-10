@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/GuiomArt7/FestivalMusica/issues"
   },
-  "homepage": "https://github.com/GuiomArt7/FestivalMusica#readme"
+  "homepage": "https://github.com/GuiomArt7/FestivalMusica#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
 }
