@@ -1,5 +1,5 @@
 @use'variables' as v;
-@mixin heading($color:blue, $border-radius: false){
+/* @mixin heading($color:blue, $border-radius: false){
     text-transform: uppercase;
     font-size: 2.4rem;
     color: $color;
@@ -8,4 +8,24 @@
     @if $border-radius{
         border-radius: 1rem;
     }
+} Mixin con parámetros*/
+@mixin telefono {
+    @media (min-width: v.$telefono) {
+        @content;
+    }
 }
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+@mixin desktopXL {
+    @media (min-width: v.$desktopXL) {
+        @content;
+    }
+}    
