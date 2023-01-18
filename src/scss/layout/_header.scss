@@ -18,7 +18,7 @@
     }
 }
 .prueba {
-    @include m.heading;
+    @include m.heading(v.$amarillo, true);
 }
 .texto {
     @include m.heading;
