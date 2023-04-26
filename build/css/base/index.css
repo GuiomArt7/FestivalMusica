@@ -334,6 +334,9 @@ body {
   font-family: "Monserrat", sans-serif;
   font-size: 1.6rem;
 }
+body.fijar-body {
+  overflow: hidden;
+}
 
 p {
   font-size: 2rem;
@@ -351,7 +354,9 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0 0 5rem 0;
 }
 
